@@ -118,4 +118,124 @@ html,body{
     height:30px;
     background-color: blue;
     color: white;
+
+}
+@media (max-width: 600px) {
+    html,body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }.container{
+    width: 200px;
+    height: 200px;
+    border: solid black 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    gap: 20px;
+    
+}
+.bulb{
+    width: 100px;
+    height: 100px;
+    border: solid black 2px;
+    border-radius: 50%;
+    position: relative;
+    background-color:gray;
+    transition: 0.3s;
+    
+}
+.on{
+            background-color: rgb(229, 211, 11); 
+            box-shadow: 0 0 30px rgb(230, 204, 8);
+        }
+#toggol{
+    background-color: rgb(181, 25, 25);
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    border:solid black 2px;
+    border-radius: 5px;
+    
+}
+.container2{
+    width: 200px;
+    height: 200px;
+    border: solid black 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    gap: 20px;
+    
+}
+.bulb2{
+    width: 100px;
+    height: 100px;
+    border: solid black 2px;
+    border-radius: 50%;
+    position: relative;
+    background-color:gray;
+    transition: 0.3s;
+    
+}
+.on2{
+            background-color: rgb(6, 232, 44); 
+            box-shadow: 0 0 30px rgb(6,232,44);
+        }
+#toggol2{
+    background-color: rgb(181, 25, 25);
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    border:solid black 2px;
+    border-radius: 5px;
+    
+}
+
+.container3{
+    width: 200px;
+    height: 200px;
+    border: solid black 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    gap: 20px;
+    
+}
+.bulb3{
+    width: 100px;
+    height: 100px;
+    border: solid black 2px;
+    border-radius: 50%;
+    position: relative;
+    background-color:gray;
+    transition: 0.3s;
+    
+}
+.on3{
+            background-color: rgb(230, 10, 10); 
+            box-shadow: 0 0 30px rgb(233, 8, 8);
+        }
+#toggol3{
+    background-color: rgb(181, 25, 25);
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    border:solid black 2px;
+    border-radius: 5px;
+    
+}
+#btn4{
+
+    width: 50px;
+    height:30px;
+    background-color: blue;
+    color: white;
+}
+
+    
 }
